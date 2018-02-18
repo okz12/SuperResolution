@@ -9,7 +9,7 @@ The program uses Locality-constrained Representation (LcR) algorithm[1] to super
 
 Configuration
 =============
-i) Arguments: The program takes 5 input arguments mentioned in order
+i) Arguments: The program takes 6 input arguments mentioned in order
 	1) Input image.
 	2) Number of images to use to super resolve: Out of the database only the image patches closest to the low resolution patches are utilized. This argument specifies how many of those closest images should be used.
 	3) Patch Size: Size of each patch in pixels to super resolve.
@@ -97,11 +97,3 @@ Psuedocode
 		-Fill 4 (magnification factor) HR pixels
 		-HR pixel += normalized weight * HR training image / number of patches overlapping pixel
 -Save HR face image
-
-
-
-Contact
-=======
-Feel free to contact me
-Author: Osman K. Zubair
-Email: osmanzubair658@gmail.com
